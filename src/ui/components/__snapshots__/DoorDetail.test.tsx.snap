@@ -43,6 +43,22 @@ exports[`DoorDetail should render correctly 1`] = `
       class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
     >
       <strong>
+        Apartment
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      Apartment 1.1
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      <strong>
         Connection type
       </strong>
     </p>
