@@ -78,11 +78,11 @@ exports[`DoorDetail should render correctly 1`] = `
         Connection status
       </strong>
     </p>
-    <p
-      class="MuiTypography-root MuiTypography-body1 css-wl91uy-MuiTypography-root"
+    <span
+      class="MuiTypography-root MuiTypography-body1 css-4sq7ol-MuiTypography-root"
     >
-      online
-    </p>
+      offline
+    </span>
   </div>
 </div>
 `;
