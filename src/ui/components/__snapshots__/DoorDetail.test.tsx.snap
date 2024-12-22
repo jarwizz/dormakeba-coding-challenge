@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DoorDetail should render correctly 1`] = `
+<div
+  class="MuiStack-root css-1sazv7p-MuiStack-root"
+>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      <strong>
+        ID
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      63f637c9f3c48a124616044b
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      <strong>
+        Building
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      Bahnhofstrasse 10A
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      <strong>
+        Connection type
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      wired
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      <strong>
+        Connection status
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-wl91uy-MuiTypography-root"
+    >
+      online
+    </p>
+  </div>
+</div>
+`;
