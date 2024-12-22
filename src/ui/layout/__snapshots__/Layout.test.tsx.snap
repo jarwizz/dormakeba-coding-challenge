@@ -53,7 +53,7 @@ exports[`Layout should render correctly 1`] = `
       <p
         class="MuiTypography-root MuiTypography-body1 css-1somrvq-MuiTypography-root"
       >
-        2/12/2023
+        12. 2. 2023
       </p>
     </div>
   </div>
