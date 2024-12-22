@@ -3,6 +3,8 @@ import { useCallback } from 'react';
 import { Door } from '@/models/Door';
 import { DataGrid, GridColDef, GridRowParams } from '@mui/x-data-grid';
 import Typography from '@mui/material/Typography';
+import { connectionStatusColor } from '../lib/connectionStatusColor';
+import { getLocaleString } from '@/lib/dateTime';
 
 interface DoorListProps {
   doors: Door[];
@@ -20,6 +22,11 @@ const columns: GridColDef<Door>[] = [
     flex: 1,
   },
   {
+    field: 'apartmentName',
+    headerName: 'Apartment Name',
+    flex: 1,
+  },
+  {
     field: 'connectionType',
     headerName: 'Connection type',
     flex: 1,
@@ -28,11 +35,25 @@ const columns: GridColDef<Door>[] = [
     field: 'connectionStatus',
     headerName: 'Connection status',
     flex: 1,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     renderCell: ({ row: door }) => {
       return (
-        <Typography component="span" color="success.main">
-          online
+        <Typography
+          component="span"
+          color={connectionStatusColor[door.connectionStatus]}
+        >
+          {door.connectionStatus}
+        </Typography>
+      );
+    },
+  },
+  {
+    field: 'lastConnectionStatusUpdate',
+    headerName: 'Last connection status update',
+    flex: 1,
+    renderCell: ({ row: door }) => {
+      return (
+        <Typography component="span">
+          {getLocaleString(door.lastConnectionStatusUpdate)}
         </Typography>
       );
     },
