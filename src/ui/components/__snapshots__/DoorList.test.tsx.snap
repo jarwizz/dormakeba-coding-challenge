@@ -643,9 +643,9 @@ exports[`DoorList should render correctly 1`] = `
               tabindex="-1"
             >
               <span
-                class="MuiTypography-root MuiTypography-body1 css-wl91uy-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-4sq7ol-MuiTypography-root"
               >
-                online
+                offline
               </span>
             </div>
           </div>
